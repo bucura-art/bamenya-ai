@@ -1,5 +1,5 @@
 -- ==============================================================
--- BUCURA AI DATABASE SCHEMA (SUPABASE + POSTGRES)
+-- BAMENYA AI DATABASE SCHEMA (SUPABASE + POSTGRES)
 -- ==============================================================
 -- ORDER:
 -- 1) EXTENSIONS AND TYPES

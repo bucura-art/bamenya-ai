@@ -16,14 +16,14 @@ const squadaOne = Squada_One({
 });
 
 export const metadata: Metadata = {
-  title: "Bucura AI",
+  title: "Bamenya AI",
   description:
-    "Bucura AI assistant is your companion in complex tasks.",
+    "Bamenya AI assistant is your companion in complex tasks.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Bucura AI",
+    title: "Bamenya AI",
   },
 };
 

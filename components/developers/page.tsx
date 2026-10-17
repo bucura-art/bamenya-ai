@@ -116,12 +116,12 @@ export default function ProjectDetailPage() {
         <div className="relative group">
           <div className="bg-[#1e1e1e] rounded-xl p-4 overflow-x-auto border border-stone-800 font-mono text-sm text-gray-300">
             &lt;script <br/>
-            src=&nbsp;https://bucura.ai/widget.js&nbsp; <br/>
+            src=&nbsp;https://bamenya.ai/widget.js&nbsp; <br/>
             data-key=&nbsp;<span className="text-emerald-400">{apiKey}</span>&nbsp;<br/>
             &gt;&lt;/script&gt;
           </div>
           <button 
-            onClick={() => copyToClipboard(`<script src="https://bucura.ai/widget.js" data-key="${apiKey}"></script>`)}
+            onClick={() => copyToClipboard(`<script src="https://bamenya.ai/widget.js" data-key="${apiKey}"></script>`)}
             className="absolute top-3 right-3 bg-white/10 hover:bg-white/20 text-white px-3 py-1.5 rounded-lg text-xs font-bold backdrop-blur-md transition opacity-0 group-hover:opacity-100"
           >
             {copied ? "Copied!" : "Copy"}

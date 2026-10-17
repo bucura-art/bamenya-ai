@@ -22,7 +22,7 @@ export default function ChatInput({
   mode,
   onModeChange,
   initialMode = "explanation",
-  placeholder = "Ask bucura anything...",
+  placeholder = "Ask bamenya anything...",
   showModeSelector = true,
   showExtensionButton = true,
   onExtensionClick,

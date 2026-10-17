@@ -15,7 +15,7 @@ export default function TermsPage() {
         <section className="card border-[#dce8df] bg-white">
           <h1 className="text-4xl sm:text-5xl">Terms Of Service</h1>
           <Text size="base" className="mt-3 text-stone-700">
-            Bucura AI is provided as an evolving service. Features may change or be
+            Bamenya AI is provided as an evolving service. Features may change or be
             limited while development continues.
           </Text>
           <Text size="base" className="mt-2 text-stone-700">

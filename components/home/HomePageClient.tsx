@@ -38,14 +38,14 @@ export default function HomePageClient({
           <div className="relative mt-12 rounded-3xl border border-white/20 bg-white/30 p-12 shadow-xl backdrop-blur-md md:mt-0">
             <div className="absolute -top-10 left-1/2 h-20 w-20 -translate-x-1/2 overflow-hidden rounded-full border-4 border-white/50 bg-[#8a8ba8] shadow-lg md:-top-12 md:left-12 md:h-24 md:w-24 md:translate-x-0">
               <Image
-                src="/images/bucura-ai.png"
-                alt="Bucura AI Logo"
+                src="/images/bamenya-ai.png"
+                alt="Bamenya AI Logo"
                 fill
                 className="object-cover"
               />
             </div>
             <h1 className="text-7xl font-bold tracking-wider md:text-9xl">
-              BUCURA AI
+              BAMENYA AI
             </h1>
             <p className="mt-2 text-lg font-bold text-stone-700 md:text-xl">
               Assistant for complex tasks.

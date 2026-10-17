@@ -1,4 +1,4 @@
-BUCURA AI
+BAMENYA AI
 
 ## STARTP FOLDER STRUCTURE
 ===================================
@@ -14,10 +14,10 @@ Tech stack:
 
 ---
 
-# 📁 BUCURA AI – Recommended Folder Structure
+# 📁 BAMENYA AI – Recommended Folder Structure
 
 ```
-bucura-ai/
+bamenya-ai/
 │
 ├── app/
 │   ├── layout.tsx
@@ -244,7 +244,7 @@ This keeps it scalable.
 
 # 🧨 Why This Structure Matters
 
-If BUCURA AI grows:
+If BAMENYA AI grows:
 
 * The AI provider can be replaced without rewriting the application layers
 * You can add subscription logic

@@ -12,7 +12,7 @@ export default function TestSignupPage() {
     <div className="min-h-screen bg-black flex items-center justify-center p-4">
       <div className="max-w-md w-full">
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold text-white mb-2">Bucura AI</h1>
+          <h1 className="text-4xl font-bold text-white mb-2">Bamenya AI</h1>
           <p className="text-gray-400">Test Signup Flow</p>
         </div>
 

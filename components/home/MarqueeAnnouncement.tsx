@@ -8,16 +8,16 @@ export default function MarqueeAnnouncement() {
       {/* Marquee Container */}
       <div className="flex min-w-full overflow-hidden">
         <div className="animate-marquee flex shrink-0 items-center whitespace-nowrap">
-          <span className="mx-4">Introducing Bucura AI customer support chatbot</span>
-          <span className="mx-4">Introducing Bucura AI customer support chatbot</span>
-          <span className="mx-4">Introducing Bucura AI customer support chatbot</span>
-          <span className="mx-4">Introducing Bucura AI customer support chatbot</span>
+          <span className="mx-4">Introducing Bamenya AI customer support chatbot</span>
+          <span className="mx-4">Introducing Bamenya AI customer support chatbot</span>
+          <span className="mx-4">Introducing Bamenya AI customer support chatbot</span>
+          <span className="mx-4">Introducing Bamenya AI customer support chatbot</span>
         </div>
         <div className="animate-marquee flex shrink-0 items-center whitespace-nowrap" aria-hidden="true">
-          <span className="mx-4">Introducing Bucura AI customer support chatbot</span>
-          <span className="mx-4">Introducing Bucura AI customer support chatbot</span>
-          <span className="mx-4">Introducing Bucura AI customer support chatbot</span>
-          <span className="mx-4">Introducing Bucura AI customer support chatbot</span>
+          <span className="mx-4">Introducing Bamenya AI customer support chatbot</span>
+          <span className="mx-4">Introducing Bamenya AI customer support chatbot</span>
+          <span className="mx-4">Introducing Bamenya AI customer support chatbot</span>
+          <span className="mx-4">Introducing Bamenya AI customer support chatbot</span>
         </div>
       </div>
 

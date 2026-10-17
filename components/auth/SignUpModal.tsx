@@ -106,7 +106,7 @@ export default function SignUpModal({
       <div className="rounded-3xl border border-white/10 bg-[#1c1c1c] p-8 shadow-2xl">
         <div className="mb-6 text-center">
           <h2 className="text-3xl font-bold text-white">Create Account</h2>
-          <p className="text-white">Try Bucura AI today</p>
+          <p className="text-white">Try Bamenya AI today</p>
         </div>
 
         <form onSubmit={handleAccountDetailsSubmit} className="flex flex-col gap-4">

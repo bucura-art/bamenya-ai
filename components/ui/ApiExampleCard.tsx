@@ -14,7 +14,7 @@ export default function ApiExampleCard() {
           <span className="text-purple-400">const</span> response ={" "}
           <span className="text-purple-400">await</span> fetch(
           <span className="text-green-400">
-            &quot;https://api.bucura.ai/chat&quot;
+            &quot;https://api.bamenya.ai/chat&quot;
           </span>
           , {"{"}
         </p>

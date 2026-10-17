@@ -1,4 +1,4 @@
-const CACHE_NAME = "bucura-ai-v1";
+const CACHE_NAME = "bamenya-ai-v1";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();

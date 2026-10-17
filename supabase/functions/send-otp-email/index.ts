@@ -88,12 +88,12 @@ function getOTPEmailHTML(otp: string, expiresIn: number = 5): string {
           This code will expire in <strong>${expiresIn} minutes</strong>
         </div>
         <div class="warning">
-          <strong>Security Notice:</strong> Never share this code with anyone. Bucura AI support will never ask for your verification code.
+          <strong>Security Notice:</strong> Never share this code with anyone. Bamenya AI support will never ask for your verification code.
         </div>
         <p style="color: #666; font-size: 14px;">If you didn't request this verification code, please ignore this email.</p>
       </div>
       <div class="footer">
-        <p>&copy; ${new Date().getFullYear()} Bucura AI. All rights reserved.</p>
+        <p>&copy; ${new Date().getFullYear()} Bamenya AI. All rights reserved.</p>
         <p>This is an automated email. Please do not reply to this message.</p>
       </div>
     </div>
@@ -121,9 +121,9 @@ async function sendEmailViaSMTP(toEmail: string, otp: string, expiresInMinutes: 
     });
 
     await transporter.sendMail({
-      from: `Bucura AI <${gmailUser}>`,
+      from: `Bamenya AI <${gmailUser}>`,
       to: toEmail,
-      subject: "Your Bucura AI Verification Code",
+      subject: "Your Bamenya AI Verification Code",
       html: getOTPEmailHTML(otp, expiresInMinutes),
     });
 

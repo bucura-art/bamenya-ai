@@ -79,7 +79,7 @@ export default function LoginModal({
       <div className="rounded-3xl border border-white/10 bg-[#1c1c1c] p-8 shadow-2xl">
         <div className="mb-6 text-center">
           <h2 className="text-3xl font-bold text-white">Welcome Back</h2>
-          <p className="text-white">Log in to Bucura AI</p>
+          <p className="text-white">Log in to Bamenya AI</p>
         </div>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">

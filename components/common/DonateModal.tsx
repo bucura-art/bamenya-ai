@@ -14,9 +14,9 @@ export default function DonateModal({ isOpen, onClose }: DonateModalProps) {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <div className="rounded-2xl border border-[#dce8df] bg-white p-5 shadow-xl">
-        <h3 className="text-2xl text-stone-900">Donate To Bucura AI</h3>
+        <h3 className="text-2xl text-stone-900">Donate To Bamenya AI</h3>
         <Text size="base" className="mt-2 text-stone-700">
-          Support Bucura AI development by dialing the donation code below.
+          Support Bamenya AI development by dialing the donation code below.
         </Text>
 
         <div className="mt-3 rounded-xl border border-[#dce8df] bg-[#f7fbf9] px-3 py-2">

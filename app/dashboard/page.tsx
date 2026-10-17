@@ -108,7 +108,7 @@ function DashboardPageContent() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          title: "ASK BUCURA",
+          title: "ASK BAMENYA",
           mode: "explanation",
         }),
       });
@@ -268,14 +268,14 @@ function DashboardPageContent() {
           <div className="mb-6 flex justify-center">
             <div className="relative h-20 w-20 overflow-hidden rounded-full border-4 border-white/50 bg-[#8a8ba8] shadow-lg">
               <Image
-                src="/images/bucura-ai.png"
-                alt="Bucura AI Logo"
+                src="/images/bamenya-ai.png"
+                alt="Bamenya AI Logo"
                 fill
                 className="object-cover"
               />
             </div>
           </div>
-          <h1 className="mb-8 text-center text-4xl sm:text-5xl">ASK BUCURA</h1>
+          <h1 className="mb-8 text-center text-4xl sm:text-5xl">ASK BAMENYA</h1>
           <section className="card border-[#dce8df] bg-white">
             <div className="space-y-5">
               <div>
@@ -294,7 +294,7 @@ function DashboardPageContent() {
                 disabled={isCreating}
                 mode={quickMode}
                 onModeChange={setQuickMode}
-                placeholder="Ask Bucura anything..."
+                placeholder="Ask Bamenya anything..."
                 onExtensionClick={() => {
                   pushToast({
                     title: "Coming Soon",
@@ -350,7 +350,7 @@ function DashboardPageContent() {
             <div className="rounded-xl border border-dashed border-[#cedbd2] bg-[#f8fcf9] p-6 text-center">
               <h3 className="text-2xl">No chats yet</h3>
               <Text size="base" className="mt-2 text-stone-900">
-                Ask BUCURA to get started
+                Ask BAMENYA to get started
               </Text>
               <button
                 type="button"
@@ -463,7 +463,7 @@ function DashboardPageFallback() {
   return (
     <main className="flex min-h-[72vh] items-center">
       <div className="mx-auto w-full max-w-3xl">
-        <h1 className="mb-8 text-center text-4xl sm:text-5xl">Ask BUCURA</h1>
+        <h1 className="mb-8 text-center text-4xl sm:text-5xl">Ask BAMENYA</h1>
         <section className="card border-[#dce8df] bg-white">
           <div className="space-y-5">
             <div>

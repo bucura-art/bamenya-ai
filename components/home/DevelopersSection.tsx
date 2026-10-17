@@ -19,7 +19,7 @@ export default function DevelopersSection({ onSignUpClick }: DevelopersSectionPr
               Bucuara customer support chatbot
             </h2>
             <p className="text-lg leading-relaxed text-stone-600">
-              Integrate bucura in your projects and skip customer confusion
+              Integrate bamenya in your projects and skip customer confusion
             </p>
 
             <div className="space-y-4">

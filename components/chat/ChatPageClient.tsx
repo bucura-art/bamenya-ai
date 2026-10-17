@@ -135,7 +135,7 @@ export default function ChatPageClient({
   const [conversationId, setConversationId] = useState<string | null>(
     isExistingConversation ? initialConversationId : null,
   );
-  const [title, setTitle] = useState("ASK BUCURA");
+  const [title, setTitle] = useState("ASK BAMENYA");
   const [mode, setMode] = useState<ChatMode>("explanation");
   const [messages, setMessages] = useState<ChatBubbleMessage[]>([]);
   const [isLoading, setIsLoading] = useState(isExistingConversation);
@@ -151,7 +151,7 @@ export default function ChatPageClient({
   );
 
   useEffect(() => {
-    setHeaderTitle("ASK BUCURA");
+    setHeaderTitle("ASK BAMENYA");
   }, [setHeaderTitle]);
 
   useEffect(() => {

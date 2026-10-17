@@ -20,7 +20,7 @@ export default function FeedbackPage() {
       return;
     }
 
-    const message = encodeURIComponent(`BUCURA AI FEEDBACK:\n${trimmed}`);
+    const message = encodeURIComponent(`BAMENYA AI FEEDBACK:\n${trimmed}`);
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
     window.open(url, "_blank", "noopener,noreferrer");
   };

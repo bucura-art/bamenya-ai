@@ -76,7 +76,7 @@ ALTER TABLE public.conversations
   ADD COLUMN IF NOT EXISTS user_identifier TEXT, -- Session ID for anonymous visitors
   ALTER COLUMN user_id DROP NOT NULL; -- Make user_id nullable for anonymous chats
 
--- Add constraint: Must have EITHER user_id (Bucura User) OR website_id (Visitor)
+-- Add constraint: Must have EITHER user_id (bamenya User) OR website_id (Visitor)
 ALTER TABLE public.conversations 
   ADD CONSTRAINT check_conversation_owner 
   CHECK (

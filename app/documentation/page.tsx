@@ -15,8 +15,8 @@ export default function DocumentationPage() {
           <Link href="/" className="flex items-center gap-2">
             <div className="relative h-8 w-8 overflow-hidden rounded-full border-2 border-stone-300 bg-[#8a8ba8]">
               <Image
-                src="/images/bucura-ai.png"
-                alt="Bucura AI Logo"
+                src="/images/bamenya-ai.png"
+                alt="Bamenya AI Logo"
                 fill
                 className="object-cover"
               />
@@ -52,7 +52,7 @@ export default function DocumentationPage() {
               Documentation
             </h1>
             <Text size="lg" className="text-stone-600 max-w-2xl">
-              Integrate Bucura AI&apos;s customer support chatbot into your
+              Integrate Bamenya AI&apos;s customer support chatbot into your
               applications. Configure custom AI assistants for every website you
               manage.
             </Text>
@@ -66,7 +66,7 @@ export default function DocumentationPage() {
               1. How It Works
             </h2>
             <Text className="mb-6">
-              Bucura AI acts as a <strong>24/7 intelligent support agent</strong>{" "}
+              Bamenya AI acts as a <strong>24/7 intelligent support agent</strong>{" "}
               for your business. Instead of static FAQs, it uses advanced AI to{" "}
               <strong>understand your website&apos;s content</strong> and answer
               customer questions naturally, instantly reducing your support
@@ -192,7 +192,7 @@ export default function DocumentationPage() {
                 <div className="rounded-xl border border-stone-800 bg-[#1e1e1e] p-4 shadow-lg overflow-x-auto">
                   <code className="text-sm font-mono text-gray-300">
                     &lt;script <br />
-                    &nbsp;&nbsp;src=&quot;https://bucura.ai/widget.js&quot;{" "}
+                    &nbsp;&nbsp;src=&quot;https://bamenya.ai/widget.js&quot;{" "}
                     <br />
                     &nbsp;&nbsp;data-key=&quot;
                     <span className="text-emerald-400">YOUR_API_KEY</span>

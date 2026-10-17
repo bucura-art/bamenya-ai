@@ -145,7 +145,7 @@ export default function MessageBubble({
               isError && "text-red-700",
             )}
           >
-            {isUser ? "You" : "Bucura AI"}
+            {isUser ? "You" : "Bamenya AI"}
           </span>
           <div className="flex items-center gap-2">
             <span
@@ -245,8 +245,8 @@ export default function MessageBubble({
           <div className="mt-3 flex items-center gap-3">
             <div className="relative h-6 w-6 overflow-hidden rounded-full border border-[#dce8df]">
               <Image
-                src="/images/bucura-ai.png"
-                alt="Bucura AI avatar"
+                src="/images/bamenya-ai.png"
+                alt="Bamenya AI avatar"
                 fill
                 sizes="24px"
                 className="object-cover"

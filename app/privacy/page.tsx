@@ -15,7 +15,7 @@ export default function PrivacyPage() {
         <section className="card border-[#dce8df] bg-white">
           <h1 className="text-4xl sm:text-5xl">Privacy Policy</h1>
           <Text size="base" className="mt-3 text-stone-700">
-            We collect only the data needed to run Bucura AI, such as account
+            We collect only the data needed to run Bamenya AI, such as account
             information, chat content, and usage metrics.
           </Text>
           <Text size="base" className="mt-2 text-stone-700">
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
             usage limits. We do not sell your personal data.
           </Text>
           <Text size="base" className="mt-2 text-stone-700">
-            By using Bucura AI, you consent to this data handling while the project is
+            By using Bamenya AI, you consent to this data handling while the project is
             under active development.
           </Text>
         </section>

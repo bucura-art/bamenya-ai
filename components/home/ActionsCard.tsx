@@ -30,7 +30,7 @@ export default function ActionCard() {
   return (
     <div className="w-full max-w-sm rounded-2xl border border-white/20 bg-gradient-to-br from-white/40 to-white/10 p-8 shadow-2xl backdrop-blur-xl transition-all">
       <h3 className="mb-6 text-3xl font-bold uppercase tracking-wide text-stone-900">
-        let bucura AI do it for you.
+        let bamenya AI do it for you.
       </h3>
       <div className="flex min-h-[320px] flex-col gap-4">
         {actions.map((action, index) => {

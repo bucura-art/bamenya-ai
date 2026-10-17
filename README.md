@@ -1,5 +1,5 @@
 
-# 📘 BUCURA AI – Student-Focused AI Assistant
+# 📘 BAMENYA AI – Student-Focused AI Assistant
 
 **Version:** MVP v1
 **Tech Stack:** Next.js + TypeScript + Google Gemini API + Supabase
@@ -9,7 +9,7 @@
 
 # 1. 🎯 Product Vision
 
-BUCURA AI is a web-based (to be turned into progressive web app) genarative AI assistant designed primarily for local use (Rwanda) for students, teachers, or other professions
+BAMENYA AI is a web-based (to be turned into progressive web app) genarative AI assistant designed primarily for local use (Rwanda) for students, teachers, or other professions
 
 
 # 2. 👥 Target Users
@@ -165,7 +165,7 @@ export async function generateResponse({
 ## 8.1 Base System Prompt
 
 ```
-You are BUCURA AI, a student AI assistant.
+You are BAMENYA AI, a student AI assistant.
 
 Rules:
 - Stay strictly on topic.
