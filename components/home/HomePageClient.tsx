@@ -45,10 +45,10 @@ export default function HomePageClient({
               />
             </div>
             <h1 className="text-7xl font-bold tracking-wider md:text-9xl">
-              BAMENYA AI
+              BAMENYA
             </h1>
             <p className="mt-2 text-lg font-bold text-stone-700 md:text-xl">
-              Assistant for complex tasks.
+              AI assistant for complex tasks.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
               <button
