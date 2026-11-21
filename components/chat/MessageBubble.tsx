@@ -162,7 +162,7 @@ export default function MessageBubble({
         <Text
           size="base"
           className={cn(
-            "whitespace-pre-wrap break-words leading-normal",
+            "whitespace-pre-wrap wrap-break-word leading-normal",
             isUser ? "text-white" : "text-stone-900",
             isError && "text-red-800",
             !isUser && "hidden",
@@ -183,7 +183,7 @@ export default function MessageBubble({
                     <Text
                       size="base"
                       className={cn(
-                        "mb-3 whitespace-pre-wrap break-words leading-normal last:mb-0",
+                        "mb-3 whitespace-pre-wrap wrap-break-word leading-normal last:mb-0",
                         isError ? "text-red-800" : "text-stone-900",
                       )}
                     >
