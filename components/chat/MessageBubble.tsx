@@ -245,7 +245,7 @@ export default function MessageBubble({
           <div className="mt-3 flex items-center gap-3">
             <div className="relative h-6 w-6 overflow-hidden rounded-full border border-[#dce8df]">
               <Image
-                src="/images/bamenya-ai.png"
+                src="/images/bamenya-ai-logo.png"
                 alt="Bamenya AI avatar"
                 fill
                 sizes="24px"

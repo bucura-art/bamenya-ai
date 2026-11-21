@@ -15,7 +15,7 @@ export default function DocumentationPage() {
           <Link href="/" className="flex items-center gap-2">
             <div className="relative h-8 w-8 overflow-hidden rounded-full border-2 border-stone-300 bg-[#8a8ba8]">
               <Image
-                src="/images/bamenya-ai.png"
+                src="/images/bamenya-ai-logo.png"
                 alt="Bamenya AI Logo"
                 fill
                 className="object-cover"

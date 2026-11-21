@@ -24,9 +24,9 @@ export default function HomePageClient({
   return (
     <main className="relative flex min-h-screen flex-col overflow-x-hidden bg-slate-400 text-stone-900">
       {/* <MarqueeAnnouncement /> */}
-      <div className="absolute left-1/2 top-1/2 z-0 h-[640px] w-[320px] -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute left-1/2 top-1/2 z-0 h-640px w-320px -translate-x-1/2 -translate-y-1/2">
         <Image
-          src="/images/hero_section.png"
+          src="/images/hero-section-img.png"
           alt="Hero Background"
           fill
           className="object-cover opacity-50"
@@ -38,7 +38,7 @@ export default function HomePageClient({
           <div className="relative mt-12 rounded-3xl border border-white/20 bg-white/30 p-12 shadow-xl backdrop-blur-md md:mt-0">
             <div className="absolute -top-10 left-1/2 h-20 w-20 -translate-x-1/2 overflow-hidden rounded-full border-4 border-white/50 bg-[#8a8ba8] shadow-lg md:-top-12 md:left-12 md:h-24 md:w-24 md:translate-x-0">
               <Image
-                src="/images/bamenya-ai.png"
+                src="/images/bamenya-ai-logo.png"
                 alt="Bamenya AI Logo"
                 fill
                 className="object-cover"

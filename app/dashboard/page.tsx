@@ -268,7 +268,7 @@ function DashboardPageContent() {
           <div className="mb-6 flex justify-center">
             <div className="relative h-20 w-20 overflow-hidden rounded-full border-4 border-white/50 bg-[#8a8ba8] shadow-lg">
               <Image
-                src="/images/bamenya-ai.png"
+                src="/images/bamenya-ai-logo.png"
                 alt="Bamenya AI Logo"
                 fill
                 className="object-cover"

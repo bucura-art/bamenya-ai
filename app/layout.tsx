@@ -16,9 +16,26 @@ const squadaOne = Squada_One({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://bamenya.ai"),
   title: "Bamenya AI",
   description:
     "Bamenya AI assistant is your companion in complex tasks.",
+  openGraph: {
+    title: "Bamenya AI",
+    description:
+      "Bamenya AI assistant is your companion in complex tasks.",
+    url: "https://bamenya.ai",
+    siteName: "Bamenya AI",
+    type: "website",
+    images: ["/opengraph-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bamenya AI",
+    description:
+      "Bamenya AI assistant is your companion in complex tasks.",
+    images: ["/opengraph-image.png"],
+  },
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
