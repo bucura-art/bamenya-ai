@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Squada_One } from "next/font/google";
 import ServiceWorkerRegister from "@/components/pwa/ServiceWorkerRegister";
+// @ts-expect-error Next.js handles global CSS imports at build time.
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 
